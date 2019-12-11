@@ -4,7 +4,7 @@ array.forEach(element => {
     console.log('Elemento: ' + element);
     
 });
-
+/* 
 const http = require('http');
 
 http.createServer(
@@ -13,4 +13,19 @@ http.createServer(
         res.write('Respuesta desde HTTP á´eŕŕŕ´r');
         res.end();
     }
-).listen(3000)
+).listen(3000) */
+
+const express = require('express');
+
+const app = express();
+
+app.get('/', (req,res) => {
+    res.send('<h1>Hola Mundo!</h1>');
+});
+
+app.get('/about', (req,res) => {
+    res.send('<h1>Esta pagina es el About!</h1>');
+});
+
+
+app.listen(3000);
