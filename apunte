@@ -21,8 +21,16 @@ Node
 
 ----------------------
 
+NPM es la libreria mas grande del mundo de paquetes
+
 npm init ---> Inicializa un proyecto en Node. Inicia un formulario interactivo
 
 MODULOS de NODE --> nodejs.org
 MODULOS de TERCEROS --> npmjs.org
 
+El navegador por defecto NO EJECUTA archivos .js
+Por CONVENCION en node se llama a la variable de la misma manera que el modulo (Ej: const http = require('http'))
+
+Un objeto literal en Javascript, a diferencia de un array que solo contiene datos, el objeto tiene pares clave-valor
+
+en el package.json se puede declarar por ejemplo "dev: nodemon" y ejecutar 'npm run dev' y va a ejecutar lo que declaremos en dev:
