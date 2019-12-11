@@ -17,3 +17,12 @@ Node
         <-- tarea3 --> tarea2 , tarea1
         y = 2 + (5 * 6)
 - Las APIS son las que complementan a JS
+    Cuando NODE se da cuenta de que hay algo que JS no puede resolver, llama a las API
+
+----------------------
+
+npm init ---> Inicializa un proyecto en Node. Inicia un formulario interactivo
+
+MODULOS de NODE --> nodejs.org
+MODULOS de TERCEROS --> npmjs.org
+
