@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/matiasnoriega/facebook_dev_circle-node#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
   }
 }
